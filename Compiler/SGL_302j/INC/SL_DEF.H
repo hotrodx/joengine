@@ -210,7 +210,7 @@ enum tvsz {
 #define	    UseClip		UseNearClip		/* Near-clipping */
 #endif
 
-#define	    sprHflip		((1 << 4) | FUNC_Texture | (UseTexture << PDATA16))
+#define	    sprHflip		((1 << 4) | FUNC_Texture | (UseTexture << 16))
 #define	    sprVflip		((1 << 5) | FUNC_Texture | (UseTexture << 16))
 #define	    sprHVflip		((3 << 4) | FUNC_Texture | (UseTexture << 16))
 #define	    sprNoflip		((0) | FUNC_Texture | (UseTexture << 16))
